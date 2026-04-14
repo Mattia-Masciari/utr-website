@@ -59,7 +59,7 @@ export default function Home() {
                     show: { opacity: 1, scale: 1, filter: "blur(0px)", transition: { duration: 0.6 } }
                   }}
                   animate={{
-                    y: [0, -10, -50, -60, -50, -10, 0],
+                    y: [0, -20, -150, -160, -150, -20, 0],
                     scaleX: [1.7, 0.6, 1.0, 1.25, 1.0, 0.4, 1.7],
                     scaleY: [0.3, 2.0, 1.0, 0.8, 1.0, 2.5, 0.3],
                   }}
@@ -70,7 +70,7 @@ export default function Home() {
                     times: [0, 0.1, 0.35, 0.5, 0.65, 0.95, 1],
                     ease: ["easeOut", "easeOut", "easeInOut", "easeInOut", "easeIn", "easeIn"]
                   }}
-                  className="absolute left-full ml-8 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
+                  className="absolute left-full ml-36 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
                 >
                   .
                 </motion.span>
