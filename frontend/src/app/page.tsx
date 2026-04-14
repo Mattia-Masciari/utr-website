@@ -49,7 +49,7 @@ export default function Home() {
                   hidden: { opacity: 0, y: 30, filter: "blur(15px)" },
                   show: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.8, ease: "easeOut" } }
                 }}
-                className="flex items-baseline relative"
+                className="flex items-baseline relative w-full"
               >
                 <span>POINT</span>
                 {/* Mobile Dot: Compact jump for adjacent visibility */}
@@ -70,7 +70,7 @@ export default function Home() {
                     times: [0, 0.1, 0.35, 0.5, 0.65, 0.95, 1],
                     ease: ["easeOut", "easeOut", "easeInOut", "easeInOut", "easeIn", "easeIn"]
                   }}
-                  className="absolute left-full ml-36 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
+                  className="absolute right-4 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
                 >
                   .
                 </motion.span>
