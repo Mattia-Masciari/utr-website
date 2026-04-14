@@ -22,7 +22,7 @@ export default function Home() {
                   transition: { staggerChildren: 0.15, delayChildren: 0.3 }
                 }
               }}
-              className="flex flex-col items-start font-heading font-extrabold text-[4.5rem] md:text-8xl lg:text-[10rem] uppercase tracking-architectural text-primary-dark leading-[0.9] md:leading-none gap-y-[0.02em]"
+              className="flex flex-col items-start font-heading font-extrabold text-[3rem] md:text-8xl lg:text-[10rem] uppercase tracking-architectural text-primary-dark leading-[0.9] md:leading-none gap-y-[0.02em]"
             >
               <motion.div
                 variants={{
