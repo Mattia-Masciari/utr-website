@@ -11,7 +11,7 @@ export default function Home() {
 
         {/* Section 1: Hero - Pure Branding */}
         <section className="min-h-screen flex flex-col justify-center px-6 md:px-12">
-          <div className="max-w-5xl">
+          <div className="max-w-5xl -mt-32 md:mt-0">
             <motion.h1
               initial="hidden"
               animate="show"
