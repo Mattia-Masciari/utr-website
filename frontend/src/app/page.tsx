@@ -70,7 +70,7 @@ export default function Home() {
                     times: [0, 0.1, 0.35, 0.5, 0.65, 0.95, 1],
                     ease: ["easeOut", "easeOut", "easeInOut", "easeInOut", "easeIn", "easeIn"]
                   }}
-                  className="absolute right-4 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[0.9em] leading-none"
+                  className="absolute left-full ml-8 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
                 >
                   .
                 </motion.span>
