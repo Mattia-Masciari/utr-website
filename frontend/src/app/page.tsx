@@ -22,7 +22,7 @@ export default function Home() {
                   transition: { staggerChildren: 0.15, delayChildren: 0.3 }
                 }
               }}
-              className="flex flex-col items-start font-heading font-extrabold text-[3rem] md:text-8xl lg:text-[10rem] uppercase tracking-architectural text-primary-dark leading-[0.9] md:leading-none gap-y-[0.02em]"
+              className="flex flex-col items-start font-heading font-extrabold text-5xl md:text-8xl lg:text-[10rem] uppercase tracking-tight md:tracking-architectural text-primary-dark leading-none gap-y-[0.02em]"
             >
               <motion.div
                 variants={{
@@ -49,7 +49,7 @@ export default function Home() {
                   hidden: { opacity: 0, y: 30, filter: "blur(15px)" },
                   show: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.8, ease: "easeOut" } }
                 }}
-                className="flex items-baseline relative w-full"
+                className="flex items-baseline relative"
               >
                 <span>POINT</span>
                 {/* Mobile Dot: Compact jump for adjacent visibility */}
@@ -59,7 +59,7 @@ export default function Home() {
                     show: { opacity: 1, scale: 1, filter: "blur(0px)", transition: { duration: 0.6 } }
                   }}
                   animate={{
-                    y: [0, -20, -150, -160, -150, -20, 0],
+                    y: [0, -10, -50, -60, -50, -10, 0],
                     scaleX: [1.7, 0.6, 1.0, 1.25, 1.0, 0.4, 1.7],
                     scaleY: [0.3, 2.0, 1.0, 0.8, 1.0, 2.5, 0.3],
                   }}
@@ -70,7 +70,7 @@ export default function Home() {
                     times: [0, 0.1, 0.35, 0.5, 0.65, 0.95, 1],
                     ease: ["easeOut", "easeOut", "easeInOut", "easeInOut", "easeIn", "easeIn"]
                   }}
-                  className="absolute right-4 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[1.2em] leading-none"
+                  className="absolute right-4 md:hidden bottom-0 origin-bottom outline-none will-change-transform text-[0.9em] leading-none"
                 >
                   .
                 </motion.span>
