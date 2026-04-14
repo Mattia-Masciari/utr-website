@@ -164,7 +164,7 @@ export default function SKGPage() {
                     <div className="text-[9px] tracking-[0.4em] text-tertiary mb-4">{achievement.category}</div>
                     {"items" in achievement ? (
                       <div className="flex flex-wrap gap-x-6 gap-y-2">
-                        {achievement.items.map((item) => (
+                        {achievement.items?.map((item) => (
                           <div key={item} className="text-[10px] tracking-wider text-primary-dark border-l border-structure/30 pl-3">
                             {item}
                           </div>
