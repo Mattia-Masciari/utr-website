@@ -59,7 +59,7 @@ export default function Home() {
                     show: { opacity: 1, scale: 1, filter: "blur(0px)", transition: { duration: 0.6 } }
                   }}
                   animate={{
-                    y: [0, -20, -150, -160, -150, -20, 0],
+                    y: [0, -20, -90, -100, -90, -20, 0],
                     scaleX: [1.7, 0.6, 1.0, 1.25, 1.0, 0.4, 1.7],
                     scaleY: [0.3, 2.0, 1.0, 0.8, 1.0, 2.5, 0.3],
                   }}
